@@ -1,0 +1,64 @@
+body {
+    flex-wrap: wrap;
+}
+
+.nav-brand {
+    width: 300px;
+    margin-top: 3px;
+}
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    font-family: "Oswald ", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-inicio {
+    background: url(img/laurynas-mereckas-JXgjueYWQlg-unsplash.jpg);
+    height: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li a {
+    padding: 10px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+}
+
+.h1-mensaje-header {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    cursor: auto;
+    top: 150px;
+    padding-left: 40px;
+    font-weight: 900;
+    font-weight: 350;
+}
+
+.nosotros {
+    width: 50%;
+    background-color: rgba(175, 175, 175, 0.657);
+    font-size: 60px;
+}
